@@ -84,6 +84,41 @@ body > * {
     object-fit: contain; 
 }
 
+.info-title {
+    font-weight: 900; 
+    font-size: 36px; 
+    text-align: center;
+    color: #1F2937
+}
+
+.info-flex {
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.info-item {
+    flex: 1 0 100px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.info-item div {
+    width: 100px; 
+    height: 100px; 
+    border-color: #3882F6; 
+    border-style: solid; 
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+.info-item p {
+    text-align: center;
+    font-weight: 300;
+    color: rgb(62, 62, 62); 
+}
+
 .quote {
     background-color: #E5E7EB; 
     display: flex; 
