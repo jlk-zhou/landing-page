@@ -1,0 +1,112 @@
+body {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+/* Set side paddings for all divs */ 
+body > * {
+    padding: 0px 100px; 
+}
+
+/* Set common background color and define flex display */
+.header, 
+.intro, 
+.footer {
+    display: flex; 
+    background-color: #1F2937; 
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px; 
+    font-weight: 900; 
+    align-items: center;
+    color: #F9FAF8
+}
+
+.header-links {
+    display: flex; 
+    list-style: none; 
+    align-items: center;
+    gap: 20px; 
+    color: #E5E7EB; 
+    font-size: 18px; 
+}
+
+/* Make main sections stretch all the way */
+.info, 
+.quote, 
+.action {
+    padding-top: 75px; 
+    padding-bottom: 75px;
+}
+
+.hero-main-text {
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900; 
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.sign-up {
+    background-color: #3882F6; 
+    color: white; 
+    width: 130px; 
+    height: 35px; 
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 8px; 
+    border: none;
+}
+
+.intro {
+    flex-wrap: wrap; 
+    gap: 25px; 
+    padding-bottom: 75px;
+}
+
+.intro-left, 
+.intro-right {
+    flex: 1 0 300px; 
+}
+
+.intro-right img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+}
+
+.quote {
+    background-color: #E5E7EB; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; 
+}
+
+.quote-text {
+    font-size: 36px; 
+    color: #1F2937; 
+    font-weight: 300; 
+    font-style: italic;
+}
+
+.quote-author {
+    padding: 8px; 
+    text-align: end;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center; 
+    padding: 30px; 
+    color: white; 
+}
