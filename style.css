@@ -104,6 +104,37 @@ body > * {
     text-align: end;
 }
 
+.action {
+    background: #3882F6; 
+    margin: 75px 100px; 
+    border-radius: 15px;
+    display: flex; 
+    align-items: center;
+}
+
+.action .content .title {
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.action .content .body {
+    color: white; 
+}
+
+.action .button button {
+    background-color: #3882F6; 
+    border-color: white;
+    color: white; 
+    width: 130px; 
+    height: 35px; 
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 8px; 
+    border-style: solid; 
+    margin: 10px; 
+}
+
 .footer {
     align-items: center;
     justify-content: center; 
