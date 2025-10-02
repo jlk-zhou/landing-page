@@ -9,7 +9,7 @@ body {
 
 /* Set side paddings for all divs */ 
 body > * {
-    padding: 0px 100px; 
+    padding: 0px 150px; 
 }
 
 /* Set common background color and define flex display */
@@ -69,7 +69,7 @@ body > * {
 
 .intro {
     flex-wrap: wrap; 
-    gap: 25px; 
+    gap: 50px; 
     padding-bottom: 75px;
 }
 
@@ -101,12 +101,13 @@ body > * {
     flex: 1 0 100px; 
     display: flex; 
     flex-direction: column; 
-    align-items: center;
+    align-items: center; 
+    justify-content: space-evenly;
 }
 
 .info-item div {
-    width: 100px; 
-    height: 100px; 
+    width: 150px; 
+    height: 150px; 
     border-color: #3882F6; 
     border-style: solid; 
     border-radius: 15px;
@@ -144,7 +145,8 @@ body > * {
     margin: 75px 100px; 
     border-radius: 15px;
     display: flex; 
-    align-items: center;
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .action .content .title {
